@@ -17,6 +17,12 @@ A new implementation of the workflow in Ma et al., *Transformer-based prediction
 
 A model trained on one material does **not** predict a different material reliably. Supply a separate consistent dataset and train a new run for each material, phase and DFT protocol.
 
+## New to machine learning?
+
+Read the **[70-page beginner handbook (PDF)](docs/Strain2D_Beginners_Handbook.pdf)**. It starts from zero and explains data, training/validation/test choices, model selection, metrics, the Transformer, uncertainty, VASP data preparation, practical commands, troubleshooting, and presenting the project to a supervisor. It includes worked examples, exercises with answers, a glossary and a study plan.
+
+The [editable guide source](docs/BEGINNER_GUIDE.md) is also available. To rebuild the PDF, use `bash tools/build_beginner_guide.sh` in an environment with the project dependencies, Pandoc, XeLaTeX, DejaVu fonts, and the LaTeX `fvextra`/`fancyhdr` packages. This documentation toolchain is separate from the ML runtime.
+
 ## 1. Install
 
 Python 3.11–3.12 is recommended; this project was exercised with Python 3.12 on CPU Linux.
