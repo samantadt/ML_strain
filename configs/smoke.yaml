@@ -1,0 +1,17 @@
+seed: 42
+models: [dummy, polynomial, random_forest, svr, mlp, transformer]
+selection_target: bandgap_eV
+alpha: 0.1
+threads: 2
+neural:
+  d_model: 32
+  heads: 4
+  layers: 2
+  feedforward: 64
+  dropout: 0.1
+  learning_rate: 0.003
+  weight_decay: 0.0001
+  epochs: 80
+  patience: 15
+  batch_size: 64
+  members: 2

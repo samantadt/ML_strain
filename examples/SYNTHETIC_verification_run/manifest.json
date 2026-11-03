@@ -1,0 +1,68 @@
+{
+  "data_sha256": "23463290ad83f7274ff664435353c69261747f280abb1d3b73711f2d823d6698",
+  "config_sha256": "080e487fc6f09d78e4ea8aa2482ad8c4fcd66926c45bd51f5dc30527f94e5343",
+  "material_id": "DEMO_ONLY_not_a_material",
+  "data_source": "synthetic",
+  "selected_model": "polynomial",
+  "selection_target": "bandgap_eV",
+  "selection_metric": "mae",
+  "selection_partition": "validation",
+  "split_sizes": {
+    "train": 220,
+    "validation": 40,
+    "calibration": 40,
+    "test_interior": 40,
+    "test_outer": 60
+  },
+  "train_seconds": {
+    "dummy": 0.002110318000177358,
+    "polynomial": 0.031001521999769466,
+    "random_forest": 1.356510714000251,
+    "svr": 0.04100817400012602,
+    "mlp": 2.2363246710001476,
+    "transformer": 2.934545194999828
+  },
+  "neural_parameters": {
+    "dummy": null,
+    "polynomial": null,
+    "random_forest": null,
+    "svr": null,
+    "mlp": 1316,
+    "transformer": 17476
+  },
+  "source_sha256": {
+    "__init__.py": "944f47278fcd3904675556676c1b6c08861dc16e07b07abc9d608f80aec36528",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "analysis.py": "04ef4324bb7e7ed36f22021d12eba481881e743831875688384e1b781311c086",
+    "cli.py": "d40e7a854715e08750b91aebfb737399aa5e151152c7353259bda3e4b2e8dd90",
+    "data.py": "dc789e931dcf211b3d12b109576076dfa45dee87cfe8d7bb52a111caa6725e3d",
+    "dft.py": "b40af0549541fc646f8ce2b56230f113decb12958069d04d4fbb503a279bad4f",
+    "metrics.py": "d91546b6094ce748980eb1191bf9d2ad1d3b9ac8def8f5bd297b99812f8b5c23",
+    "models.py": "36e1543229c79922368cc5e7748480cf7cba4efa562745402ec74af69cc2c352",
+    "phonons.py": "4692415a66a148c8222d79d12d1dd2c0b10abaddca2fbbadba3a68941edbee56",
+    "report.py": "b33716c4649e6e53923192a2bc7458f29bad99c922a2abc84ab239041ad7abe0",
+    "sampling.py": "53133dd439859e61ebbe779aaf0e615ab27fadbc86686229fc62eafe9c1b087b",
+    "workflow.py": "a49fee7dba1f91ef14e8c77268e6da93fca2c6459b0ccb934f97cff3648f6eb0"
+  },
+  "versions": {
+    "strain2d": "0.1.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "torch": "2.5.1+cpu",
+    "ase": "3.29.0",
+    "phonopy": "4.8.6"
+  },
+  "python": "3.12.14",
+  "git_commit": "8800c141c8d8c5ed345138749a3c36b0fa3abaed",
+  "git_dirty": true,
+  "calibration_alpha": 0.1,
+  "conformal_radii": {
+    "bandgap_eV": 0.00483483084469416,
+    "strain_energy_meV_atom": 0.13404717040526748
+  },
+  "refit_all_data": false,
+  "strain_units": "percent; tensor shear",
+  "created_utc": "2026-11-03T07:52:45.654432+00:00"
+}

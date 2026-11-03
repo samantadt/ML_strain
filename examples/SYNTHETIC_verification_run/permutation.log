@@ -1,0 +1,110 @@
+[
+  {
+    "target": "bandgap_eV",
+    "feature": "exx",
+    "error": "mae",
+    "error_increase_mean": 0.11778650321758752,
+    "error_increase_std": 0.01487749991170908,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "bandgap_eV",
+    "feature": "eyy",
+    "error": "mae",
+    "error_increase_mean": 0.11997681148420883,
+    "error_increase_std": 0.01220172646622952,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "bandgap_eV",
+    "feature": "exy",
+    "error": "mae",
+    "error_increase_mean": 0.04860952004471615,
+    "error_increase_std": 0.006989654651168723,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "strain_energy_meV_atom",
+    "feature": "exx",
+    "error": "mae",
+    "error_increase_mean": 42.2127420682534,
+    "error_increase_std": 4.018610945554706,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "strain_energy_meV_atom",
+    "feature": "eyy",
+    "error": "mae",
+    "error_increase_mean": 44.083156881540575,
+    "error_increase_std": 7.056362269919456,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "strain_energy_meV_atom",
+    "feature": "exy",
+    "error": "mae",
+    "error_increase_mean": 42.226469167624124,
+    "error_increase_std": 3.3022698591326862,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "is_direct",
+    "feature": "exx",
+    "error": "brier",
+    "error_increase_mean": 0.003214165026980047,
+    "error_increase_std": 0.005225592769062631,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "is_direct",
+    "feature": "eyy",
+    "error": "brier",
+    "error_increase_mean": 0.0028776911572001352,
+    "error_increase_std": 0.0013246771580869845,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "is_direct",
+    "feature": "exy",
+    "error": "brier",
+    "error_increase_mean": 0.448105702304642,
+    "error_increase_std": 0.06367162263808701,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "is_stable",
+    "feature": "exx",
+    "error": "brier",
+    "error_increase_mean": 0.09061439395933162,
+    "error_increase_std": 0.04138204176886419,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "is_stable",
+    "feature": "eyy",
+    "error": "brier",
+    "error_increase_mean": 0.11871061751789776,
+    "error_increase_std": 0.028398450073755927,
+    "repeats": 10,
+    "data_source": "synthetic"
+  },
+  {
+    "target": "is_stable",
+    "feature": "exy",
+    "error": "brier",
+    "error_increase_mean": 0.25489543095015416,
+    "error_increase_std": 0.06466910797841018,
+    "repeats": 10,
+    "data_source": "synthetic"
+  }
+]

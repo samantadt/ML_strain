@@ -1,0 +1,19 @@
+seed: 42
+models: [dummy, polynomial, random_forest, svr, mlp, transformer]
+selection_target: bandgap_eV
+alpha: 0.10
+threads: 2
+neural:
+  d_model: 128
+  heads: 8
+  layers: 4
+  feedforward: 256
+  dropout: 0.1
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  epochs: 600
+  patience: 60
+  batch_size: 64
+  members: 3
+# Same settings for MLP and Transformer except for the architecture.
+# Partial labels supported, but every target must be represented in training/validation/calibration.

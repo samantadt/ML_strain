@@ -1,0 +1,3 @@
+# Optional tested XGBoost CPU baseline; Linux x86_64.
+-r requirements-cpu.lock
+xgboost-cpu==3.4.1

@@ -1,0 +1,702 @@
+{
+  "test_interior": {
+    "dummy": {
+      "bandgap_eV": {
+        "n": 40,
+        "mae": 0.11023750778297418,
+        "rmse": 0.13402068428217773,
+        "r2": -0.03250742955130703
+      },
+      "strain_energy_meV_atom": {
+        "n": 40,
+        "mae": 47.43483506856201,
+        "rmse": 54.3860511148343,
+        "r2": -0.02248330165248036
+      },
+      "is_direct": {
+        "n": 40,
+        "accuracy": 0.575,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5,
+        "brier": 0.2462396694214876,
+        "log_loss": 0.6856177138460565,
+        "precision": 0.575,
+        "recall": 1.0,
+        "f1": 0.7301587301587301,
+        "confusion_matrix": [
+          [
+            0,
+            17
+          ],
+          [
+            0,
+            23
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 40,
+        "accuracy": 0.7,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5,
+        "brier": 0.21206611570247932,
+        "log_loss": 0.6161155396548779,
+        "precision": 0.7,
+        "recall": 1.0,
+        "f1": 0.8235294117647058,
+        "confusion_matrix": [
+          [
+            0,
+            12
+          ],
+          [
+            0,
+            28
+          ]
+        ]
+      }
+    },
+    "polynomial": {
+      "bandgap_eV": {
+        "n": 40,
+        "mae": 0.00229709406739973,
+        "rmse": 0.002936901080683282,
+        "r2": 0.9995041752958095,
+        "mae_bootstrap_95pct": [
+          0.0017347323269604864,
+          0.002861976495784228
+        ],
+        "interval_coverage": 0.925,
+        "interval_width": 0.00966966168938832
+      },
+      "strain_energy_meV_atom": {
+        "n": 40,
+        "mae": 0.05929412832834076,
+        "rmse": 0.07407775827676552,
+        "r2": 0.9999981030458505,
+        "mae_bootstrap_95pct": [
+          0.04653892874346164,
+          0.07421449383779004
+        ],
+        "interval_coverage": 0.925,
+        "interval_width": 0.26809434081053496
+      },
+      "is_direct": {
+        "n": 40,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.006880562799060362,
+        "log_loss": 0.04499248090763683,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            17,
+            0
+          ],
+          [
+            0,
+            23
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 40,
+        "accuracy": 0.925,
+        "balanced_accuracy": 0.875,
+        "roc_auc": 0.9761904761904762,
+        "brier": 0.06183632632794658,
+        "log_loss": 0.2102215262743216,
+        "precision": 0.9032258064516129,
+        "recall": 1.0,
+        "f1": 0.9491525423728814,
+        "confusion_matrix": [
+          [
+            9,
+            3
+          ],
+          [
+            0,
+            28
+          ]
+        ]
+      }
+    },
+    "random_forest": {
+      "bandgap_eV": {
+        "n": 40,
+        "mae": 0.021667426657846888,
+        "rmse": 0.028663803170920894,
+        "r2": 0.9527700866053257
+      },
+      "strain_energy_meV_atom": {
+        "n": 40,
+        "mae": 9.649016998901143,
+        "rmse": 12.718006744332676,
+        "r2": 0.9440861659618915
+      },
+      "is_direct": {
+        "n": 40,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.007536189367205215,
+        "log_loss": 0.07118762553999701,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            17,
+            0
+          ],
+          [
+            0,
+            23
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 40,
+        "accuracy": 0.875,
+        "balanced_accuracy": 0.8154761904761905,
+        "roc_auc": 0.9732142857142856,
+        "brier": 0.0761434904115292,
+        "log_loss": 0.24714426019069916,
+        "precision": 0.8709677419354839,
+        "recall": 0.9642857142857143,
+        "f1": 0.9152542372881356,
+        "confusion_matrix": [
+          [
+            8,
+            4
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      }
+    },
+    "svr": {
+      "bandgap_eV": {
+        "n": 40,
+        "mae": 0.0035978175117987953,
+        "rmse": 0.004465257551292618,
+        "r2": 0.99885384711873
+      },
+      "strain_energy_meV_atom": {
+        "n": 40,
+        "mae": 1.2210714913117795,
+        "rmse": 2.0562449909153564,
+        "r2": 0.9985383920861532
+      },
+      "is_direct": {
+        "n": 40,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.004585475526865335,
+        "log_loss": 0.031181830885062184,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            17,
+            0
+          ],
+          [
+            0,
+            23
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 40,
+        "accuracy": 0.9,
+        "balanced_accuracy": 0.8333333333333333,
+        "roc_auc": 0.9821428571428572,
+        "brier": 0.06614873063922028,
+        "log_loss": 0.20264579896264964,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "confusion_matrix": [
+          [
+            8,
+            4
+          ],
+          [
+            0,
+            28
+          ]
+        ]
+      }
+    },
+    "mlp": {
+      "bandgap_eV": {
+        "n": 40,
+        "mae": 0.0072039120351070855,
+        "rmse": 0.010269563168760782,
+        "r2": 0.9939374760880748
+      },
+      "strain_energy_meV_atom": {
+        "n": 40,
+        "mae": 2.0990041308498215,
+        "rmse": 2.9655970835594636,
+        "r2": 0.9969597768405489
+      },
+      "is_direct": {
+        "n": 40,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.0013123790891028742,
+        "log_loss": 0.014885577754290063,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            17,
+            0
+          ],
+          [
+            0,
+            23
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 40,
+        "accuracy": 0.925,
+        "balanced_accuracy": 0.875,
+        "roc_auc": 0.9702380952380953,
+        "brier": 0.05879346485906476,
+        "log_loss": 0.20373378968587055,
+        "precision": 0.9032258064516129,
+        "recall": 1.0,
+        "f1": 0.9491525423728814,
+        "confusion_matrix": [
+          [
+            9,
+            3
+          ],
+          [
+            0,
+            28
+          ]
+        ]
+      }
+    },
+    "transformer": {
+      "bandgap_eV": {
+        "n": 40,
+        "mae": 0.01616234982061666,
+        "rmse": 0.019391593206691024,
+        "r2": 0.9783839414820714
+      },
+      "strain_energy_meV_atom": {
+        "n": 40,
+        "mae": 4.87626492238267,
+        "rmse": 5.999471966835166,
+        "r2": 0.9875575120756607
+      },
+      "is_direct": {
+        "n": 40,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.001659081006449413,
+        "log_loss": 0.019958863580466994,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            17,
+            0
+          ],
+          [
+            0,
+            23
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 40,
+        "accuracy": 0.9,
+        "balanced_accuracy": 0.8571428571428572,
+        "roc_auc": 0.9761904761904762,
+        "brier": 0.05887639402236093,
+        "log_loss": 0.18269932999346886,
+        "precision": 0.9,
+        "recall": 0.9642857142857143,
+        "f1": 0.9310344827586207,
+        "confusion_matrix": [
+          [
+            9,
+            3
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      }
+    }
+  },
+  "test_outer": {
+    "dummy": {
+      "bandgap_eV": {
+        "n": 60,
+        "mae": 0.22575867782395395,
+        "rmse": 0.25876196278345714,
+        "r2": -2.904829008671583
+      },
+      "strain_energy_meV_atom": {
+        "n": 60,
+        "mae": 148.27975349303313,
+        "rmse": 155.00954601032657,
+        "r2": -10.772213387240964
+      },
+      "is_direct": {
+        "n": 60,
+        "accuracy": 0.03333333333333333,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5,
+        "brier": 0.2807093663911846,
+        "log_loss": 0.7546503932371219,
+        "precision": 0.03333333333333333,
+        "recall": 1.0,
+        "f1": 0.06451612903225806,
+        "confusion_matrix": [
+          [
+            0,
+            58
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 60,
+        "accuracy": 0.0,
+        "balanced_accuracy": null,
+        "roc_auc": null,
+        "brier": 0.5557024793388429,
+        "log_loss": 1.3682758556172123,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            60
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "polynomial": {
+      "bandgap_eV": {
+        "n": 60,
+        "mae": 0.0024197183515970886,
+        "rmse": 0.0029937189757373245,
+        "r2": 0.9994773352538644,
+        "mae_bootstrap_95pct": [
+          0.0019702314246799824,
+          0.0028729262125117053
+        ],
+        "interval_coverage": 0.8833333333333333,
+        "interval_width": 0.00966966168938832
+      },
+      "strain_energy_meV_atom": {
+        "n": 60,
+        "mae": 0.24409337736004677,
+        "rmse": 0.26379757944642834,
+        "r2": 0.9999659056159005,
+        "mae_bootstrap_95pct": [
+          0.2213891475156273,
+          0.27055800414034986
+        ],
+        "interval_coverage": 0.05,
+        "interval_width": 0.26809434081053496
+      },
+      "is_direct": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.0022051479041094806,
+        "log_loss": 0.009555885669312638,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            58,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "roc_auc": null,
+        "brier": 5.5557162445057294e-05,
+        "log_loss": 0.0033767957297249356,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            60,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "random_forest": {
+      "bandgap_eV": {
+        "n": 60,
+        "mae": 0.11173175650132615,
+        "rmse": 0.11884345773268327,
+        "r2": 0.17633292565223158
+      },
+      "strain_energy_meV_atom": {
+        "n": 60,
+        "mae": 69.3573761291111,
+        "rmse": 76.59228269760749,
+        "r2": -1.874162132807081
+      },
+      "is_direct": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.02399015718537414,
+        "log_loss": 0.14095240863242992,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            58,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "roc_auc": null,
+        "brier": 0.01855766549036281,
+        "log_loss": 0.12981470209603932,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            60,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "svr": {
+      "bandgap_eV": {
+        "n": 60,
+        "mae": 0.04411384344234097,
+        "rmse": 0.0614937319853799,
+        "r2": 0.7794724518717867
+      },
+      "strain_energy_meV_atom": {
+        "n": 60,
+        "mae": 24.74198420655372,
+        "rmse": 32.57574392001611,
+        "r2": 0.48008790392033984
+      },
+      "is_direct": {
+        "n": 60,
+        "accuracy": 0.9833333333333333,
+        "balanced_accuracy": 0.9913793103448276,
+        "roc_auc": 1.0,
+        "brier": 0.008400364585661985,
+        "log_loss": 0.036737940186818904,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "confusion_matrix": [
+          [
+            57,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "roc_auc": null,
+        "brier": 7.0383546900928196e-06,
+        "log_loss": 0.001957277822312844,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            60,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "mlp": {
+      "bandgap_eV": {
+        "n": 60,
+        "mae": 0.016672348093686236,
+        "rmse": 0.02122989976955048,
+        "r2": 0.9737156624961988
+      },
+      "strain_energy_meV_atom": {
+        "n": 60,
+        "mae": 14.345544600711765,
+        "rmse": 17.589165181707436,
+        "r2": 0.8484235637995315
+      },
+      "is_direct": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.0012886666229104612,
+        "log_loss": 0.006768260295609328,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            58,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "roc_auc": null,
+        "brier": 2.9257144127137692e-05,
+        "log_loss": 0.0025332391371943328,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            60,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "transformer": {
+      "bandgap_eV": {
+        "n": 60,
+        "mae": 0.07625065171061153,
+        "rmse": 0.09601425387682574,
+        "r2": 0.46238352338673705
+      },
+      "strain_energy_meV_atom": {
+        "n": 60,
+        "mae": 47.95154739078389,
+        "rmse": 57.747704868865384,
+        "r2": -0.633844398708407
+      },
+      "is_direct": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0,
+        "brier": 0.009857240528870038,
+        "log_loss": 0.08270266026319904,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            58,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "is_stable": {
+        "n": 60,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "roc_auc": null,
+        "brier": 8.105524838239557e-05,
+        "log_loss": 0.007208839737576976,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            60,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}

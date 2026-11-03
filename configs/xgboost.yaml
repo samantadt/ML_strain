@@ -1,0 +1,5 @@
+# Optional boosting benchmark; shares the same data split and seed as default.yaml.
+# Install with: python -m pip install -e '.[xgboost]'
+seed: 42
+models: [dummy, polynomial, random_forest, svr, xgboost]
+selection_target: bandgap_eV
